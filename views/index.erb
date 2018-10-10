@@ -17,5 +17,12 @@
         <p>1 does not equal 2</p>
         <%end%>
       </section>
+      <div>
+        <% if logged_in? %>
+          <a href="/logout">Click here to Log Out</a>
+        <% else %>
+          <a href="/login">Click here to Log In</a>
+        <% end %>
+        </div
     </body>
 </html>
